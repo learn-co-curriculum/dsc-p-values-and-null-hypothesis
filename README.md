@@ -48,57 +48,6 @@ When we conduct an experiment, our goal is calculate a p-value and compare it to
 
 In simple terms:
 
-$p < \alpha$: Reject the 
-
-# P-Values and the Null Hypothesis
-
-
-## Introduction
-
-In this lesson, we'll learn about the relationship between P-values and the Null Hypothesis, and their role in designing an experiment. 
-
-
-## Objectives
-
-You will be able to:
-
-* Understand and explain the null hypothesis, including its role in sound experiment design
-* Understand, calculate, and interpret P-values
-
-
-## Understanding  The Null Hypothesis
-
-As we said previously, scientific experiments actually have 2 hypotheses:
-
-**_Null Hypothesis_**: There is no relationship between A and B 
-Example: "There is no relationship between this flu medication and a reduced recovery time from the flu".
-
-The _Null Hypothesis_ is usually denoted as $H_O$
-
-**_Alternative Hypothesis_**: The hypothesis we traditionally think of when thikning of a hypothesis for an experiment
-Example: "This flu medication reduces recovery time for the flu."
-
-The _Alternative Hypothesis_ is usually denoted as $H_a$
-
-
-### P-Values and Alpha Values
-
-No matter what you're experimenting on, good experiments come down down to one question: Is our p-value less than our alpha value? Let's dive into what each of these values represents, and why they're so important to experimental design. 
-
-**_P-value_**: The calculated probability of arriving at this data randomly. 
-
-If we calculate a p-value and it comes out to 0.3, we can interpret this as saying "There is a 3% chance that the results I'm seeing are actually due to randomness or pure luck".  
-
-$\alpha$ **_(alpha value)_**: The marginal threshold at which we're okay with with rejecting the null hypothesis. 
-
-An alpha value can be any value we set between 0 and 1. However, the most common alpha value in science is 0.05 (although this is somewhat of a controversial topic in the scientific community, currently).  
-
-If we set an alpha value of $\alpha = 0.05$, we're essentially saying "I'm okay with accepting my alternative hypothesis as true if there is less than a 5% chance that the results that I'm seeing are actually due to randomness".  
-
-When we conduct an experiment, our goal is calculate a p-value and compare it to our alpha value. If $p < \alpha$, then we **_reject the null hypothesis_** and accept that there is not "no relationship" between our dependent variables.  Note that any good scientist will admit that this doesn't prove that there is a _direct relationship_ between our dependent and independent variables--just that we have enough evidence to the contrary to show that we can no longer believe that there is no relationship between them. 
-
-In simple terms:
-
 $p < \alpha$: Reject the _Null Hypothesis_ and accept the _Alternative Hypothesis_
 
 $p >= \alpha$: Fail to reject the _Null Hypothesis_.  
