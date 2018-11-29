@@ -36,7 +36,7 @@ No matter what you're experimenting on, good experiments come down down to one q
 
 **_P-value_**: The calculated probability of arriving at this data randomly. 
 
-If we calculate a p-value and it comes out to 0.3, we can interpret this as saying "There is a 3% chance that the results I'm seeing are actually due to randomness or pure luck".  
+If we calculate a p-value and it comes out to 0.03, we can interpret this as saying "There is a 3% chance that the results I'm seeing are actually due to randomness or pure luck".  
 
 $\alpha$ **_(alpha value)_**: The marginal threshold at which we're okay with with rejecting the null hypothesis. 
 
