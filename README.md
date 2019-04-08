@@ -38,13 +38,13 @@ No matter what you're experimenting on, good experiments come down down to one q
 
 If you calculate a p-value and it comes out to 0.03, you can interpret this as saying "There is a 3% chance that the results I'm seeing are actually due to randomness or pure luck".  
 
-$\alpha$ **_(alpha value)_**: The marginal threshold at which you're okay with with rejecting the null hypothesis. 
+$\alpha$ **_(alpha value)_**: The marginal threshold at which you're okay with rejecting the null hypothesis. 
 
 An alpha value can be any value we set between 0 and 1. However, the most common alpha value in science is 0.05 (although this is somewhat of a controversial topic in the scientific community, currently).  
 
 If you set an alpha value of $\alpha = 0.05$, you're essentially saying "I'm okay with accepting my alternative hypothesis as true if there is less than a 5% chance that the results that I'm seeing are actually due to randomness."
 
-When you conduct an experiment, your goal is calculate a p-value and compare it to the alpha value. If $p < \alpha$, then you **_reject the null hypothesis_** and accept that there is not "no relationship" between the dependent and independent variables.  Note that any good scientist will admit that this doesn't prove that there is a _direct relationship_ between our dependent and independent variables--just that they now have enough evidence to the contrary to show that they can no longer believe that there is no relationship between them. 
+When you conduct an experiment, your goal is to calculate a p-value and compare it to the alpha value. If $p < \alpha$, then you **_reject the null hypothesis_** and accept that there is not "no relationship" between the dependent and independent variables.  Note that any good scientist will admit that this doesn't prove that there is a _direct relationship_ between our dependent and independent variables--just that they now have enough evidence to the contrary to show that they can no longer believe that there is no relationship between them. 
 
 In simple terms:
 
@@ -77,12 +77,12 @@ The following charts are designed to help you remember how to phrase, set up, an
 
 #### Charts for Continuous Data
 
-| <img src='one-sample-continuous-data.png'> | <img src='two-sample-continuous-data.png'> |
+| <img src='./images/one-sample-continuous-data.png'> | <img src='./images/two-sample-continuous-data.png'> |
 |--------------------------------------------|--------------------------------------------|
 
 #### Charts for Discrete Data
 
-| <img src='one-sample-discrete-data.png'> | <img src='two-sample-discrete-data.png'> |
+| <img src='./images/one-sample-discrete-data.png'> | <img src='./images/two-sample-discrete-data.png'> |
 |--------------------------------------------|--------------------------------------------|
 
 
@@ -107,4 +107,4 @@ Read the following article, [The Null Hypothesis Loves You and Wants You To Be H
 
 ## Summary
 
-In this lesson, you learned about the relationship between P-values and the Null Hypothesis. Now let's move on and see how group sizes affect our tests!
+In this lesson, you learned about the relationship between P-values and the Null Hypothesis. Now you'll see how effect sizes affect your tests!
