@@ -32,7 +32,7 @@ The _Alternative Hypothesis_ is usually denoted as $H_{a}$
 
 ### P-Values and Alpha Values
 
-No matter what you're experimenting on, good experiments come down down to one question: Is your p-value less than your alpha value? Let's dive into what each of these values represents, and why they're so important to experimental design. 
+No matter what you're experimenting on, good experiments come down to one question: Is your p-value less than your alpha value? Let's dive into what each of these values represents, and why they're so important to experimental design. 
 
 **_P-value_**: The calculated probability of arriving at this data randomly. 
 
