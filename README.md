@@ -22,7 +22,7 @@ As we said previously, scientific experiments actually have 2 hypotheses:
 **_Null Hypothesis_**: There is no relationship between A and B   
 Example: "There is no relationship between this flu medication and a reduced recovery time from the flu".
 
-The _Null Hypothesis_ is usually denoted as $H_{O}$
+The _Null Hypothesis_ is usually denoted as $H_{o}$
 
 **_Alternative Hypothesis_**: The hypothesis traditionally thought of when creating a hypothesis for an experiment  
 Example: "This flu medication reduces recovery time for the flu."
@@ -58,17 +58,17 @@ A **_One-Tail Test_** is when we want to know if a parameter from our treatment 
 
 **_Example One-Tail Hypothesis_**
 
-$H_a = \mu_1 < \mu_2 $ The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
+$H_a : \mu_1 < \mu_2 $ The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
 
-$ H_o = \mu1 >= \mu_2$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug". 
+$ H_o : \mu1 >= \mu_2$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug". 
 
 A **_Two-Tail Test_** is for when we want to test if a parameter falls between (or outside of) a range of two given values. 
 
 **_Example Two-Tail Hypothesis_**
 
-$H_a = \mu_1 \neq \mu_2$ "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
+$H_a : \mu_1 \neq \mu_2$ "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
 
-$H_o = \mu_1 = \mu_2$ "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
+$H_o : \mu_1 = \mu_2$ "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
 
 
 ## Use the Charts!
