@@ -22,13 +22,17 @@ As we said previously, scientific experiments actually have 2 hypotheses:
 **_Null Hypothesis_**: There is no relationship between A and B   
 Example: "There is no relationship between this flu medication and a reduced recovery time from the flu".
 
-The _Null Hypothesis_ is usually denoted as $H_{o}$
+The _Null Hypothesis_ is usually denoted as $H_{0}$
 
 **_Alternative Hypothesis_**: The hypothesis traditionally thought of when creating a hypothesis for an experiment  
 Example: "This flu medication reduces recovery time for the flu."
 
-The _Alternative Hypothesis_ is usually denoted as $H_{a}$
+The _Alternative Hypothesis_ is usually denoted as $H_{1}$
 
+
+An easy way to differentiate between the Null Hypothesis and the Alternative Hypothesis is that the Null Hypothesis is the more conservative choice. It always assumes that there is no difference between two different population means, and when it is represented mathematically, it should always contain an equals sign. 
+
+The Alternative Hypothesis is whatever claim you are trying to prove with an experiment.
 
 ### P-Values and Alpha Values
 
@@ -58,39 +62,18 @@ A **_One-Tail Test_** is when we want to know if a parameter from our treatment 
 
 **_Example One-Tail Hypothesis_**
 
-$H_a : \mu_1 < \mu_2 $ The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
+$H_{1} : \mu_1 < \mu_2 $ The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
 
-$ H_o : \mu1 >= \mu_2$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug". 
+$ H_{0} : \mu1 >= \mu_2$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug". 
 
 A **_Two-Tail Test_** is for when we want to test if a parameter falls between (or outside of) a range of two given values. 
 
 **_Example Two-Tail Hypothesis_**
 
-$H_a : \mu_1 \neq \mu_2$ "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
+$H_{1} : \mu_1 \neq \mu_2$ "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
 
-$H_o : \mu_1 = \mu_2$ "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
+$H_{0} : \mu_1 = \mu_2$ "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
 
-
-## Use the Charts!
-
-The following charts are designed to help you remember how to phrase, set up, and evaluate hypotheses for any experiment.  Note that before you can know which chart to use, you need to define if your experiment is with **_Continuous_** or **_Discrete_** data, and if your hypothesis test is a **_One-Tail_** or a **_Two-Tail_** test!
-
-#### Charts for Continuous Data
-
-| <img src='./images/one-sample-continuous-data.png'> | <img src='./images/two-sample-continuous-data.png'> |
-|--------------------------------------------|--------------------------------------------|
-
-#### Charts for Discrete Data
-
-| <img src='./images/one-sample-discrete-data.png'> | <img src='./images/two-sample-discrete-data.png'> |
-|--------------------------------------------|--------------------------------------------|
-
-
-### Important Note
-
-**_Do Not_** make the mistake of thinking you need to memorize each of the charts above.  Instead, focus on understanding the differences between them. You'll find each of the following charts stored as an image within the corresponding github repo for this lesson. 
-
-**_Download these charts and store them on your machine for when you need them!_**
 
 #### What Does an Experiment Really Prove?
 
