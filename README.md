@@ -17,7 +17,7 @@ You will be able to:
 
 ## Understanding  The Null Hypothesis
 
-As we said previously, scientific experiments actually have 2 hypotheses:
+As stated previously, scientific experiments actually have 2 hypotheses:
 
 **_Null Hypothesis_**: There is no relationship between A and B   
 Example: "There is no relationship between this flu medication and a reduced recovery time from the flu".
@@ -44,11 +44,11 @@ If you calculate a p-value and it comes out to 0.03, you can interpret this as s
 
 $\alpha$ **_(alpha value)_**: The marginal threshold at which you're okay with rejecting the null hypothesis. 
 
-An alpha value can be any value we set between 0 and 1. However, the most common alpha value in science is 0.05 (although this is somewhat of a controversial topic in the scientific community, currently).  
+An alpha value can be any value set between 0 and 1. However, the most common alpha value in science is 0.05 (although this is somewhat of a controversial topic in the scientific community, currently).  
 
 If you set an alpha value of $\alpha = 0.05$, you're essentially saying "I'm okay with accepting my alternative hypothesis as true if there is less than a 5% chance that the results that I'm seeing are actually due to randomness."
 
-When you conduct an experiment, your goal is to calculate a p-value and compare it to the alpha value. If $p < \alpha$, then you **_reject the null hypothesis_** and accept that there is not "no relationship" between the dependent and independent variables.  Note that any good scientist will admit that this doesn't prove that there is a _direct relationship_ between our dependent and independent variables--just that they now have enough evidence to the contrary to show that they can no longer believe that there is no relationship between them. 
+When you conduct an experiment, your goal is to calculate a p-value and compare it to the alpha value. If $p < \alpha$, then you **_reject the null hypothesis_** and accept that there is not "no relationship" between the dependent and independent variables.  Note that any good scientist will admit that this doesn't prove that there is a _direct relationship_ between the dependent and independent variables--just that they now have enough evidence to the contrary to show that they can no longer believe that there is no relationship between them. 
 
 In simple terms:
 
@@ -56,9 +56,9 @@ $p < \alpha$: Reject the _Null Hypothesis_ and accept the _Alternative Hypothesi
 
 $p >= \alpha$: Fail to reject the _Null Hypothesis_.  
 
-There are many different ways that we can structure a hypothesis statement, but they always come down to this comparison in the end.  In normally distributed data, we calculate p-values from z-scores. This is done a bit differently with discrete data. We may also have **_One-Tail_** and **_Two-Tail_** tests.  
+There are many different ways that you can structure a hypothesis statement, but they always come down to this comparison in the end.  In normally distributed data, you calculate p-values from z-scores. This is done a bit differently with discrete data. You may also have **_One-Tail_** and **_Two-Tail_** tests.  
 
-A **_One-Tail Test_** is when we want to know if a parameter from our treatment group is greater than (or less than) a corresponding parameter from our control group.
+A **_One-Tail Test_** is when you want to know if a parameter from the treatment group is greater than (or less than) a corresponding parameter from the control group.
 
 **_Example One-Tail Hypothesis_**
 
@@ -66,7 +66,7 @@ $H_{1} : \mu_1 < \mu_2 $ The treatment group given this weight loss drug will lo
 
 $ H_{0} : \mu1 >= \mu_2$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug". 
 
-A **_Two-Tail Test_** is for when we want to test if a parameter falls between (or outside of) a range of two given values. 
+A **_Two-Tail Test_** is for when you want to test if a parameter falls between (or outside of) a range of two given values. 
 
 **_Example Two-Tail Hypothesis_**
 
