@@ -11,9 +11,7 @@ In this lesson, you'll learn about the relationship between p-values and the Nul
 
 You will be able to:
 
-* Understand and explain the null hypothesis, including its role in sound experiment design
-* Understand, calculate, and interpret p-values
-
+* Describe what it means to "reject the null hypothesis" and how it is related to p-value
 
 ## Understanding  The Null Hypothesis
 
