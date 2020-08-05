@@ -50,9 +50,9 @@ When you conduct an experiment, your goal is to calculate a p-value and compare 
 
 In simple terms:
 
- <img src="https://render.githubusercontent.com/render/math?math=p < \alpha"> : Reject the _Null Hypothesis_ and accept the _Alternative Hypothesis_
+ <img src="https://render.githubusercontent.com/render/math?math=p &lt; \alpha"> : Reject the _Null Hypothesis_ and accept the _Alternative Hypothesis_
 
- <img src="https://render.githubusercontent.com/render/math?math=p >= \alpha"> : Fail to reject the _Null Hypothesis_.  
+ <img src="https://render.githubusercontent.com/render/math?math=p &gt;= \alpha"> : Fail to reject the _Null Hypothesis_.  
 
 There are many different ways that you can structure a hypothesis statement, but they always come down to this comparison in the end.  In normally distributed data, you calculate p-values from t-statistics or ( <img src="https://render.githubusercontent.com/render/math?math=z"> -scores if the population parameters are known). This is done a bit differently with discrete data. You may also have **_One-Tail_** and **_Two-Tail_** tests.  
 
@@ -60,9 +60,9 @@ A **_One-Tail Test_** is when you want to know if a parameter from the treatment
 
 **_Example One-Tail Hypothesis_**
 
- <img src="https://render.githubusercontent.com/render/math?math=H_{1} : \mu_1 < \mu_2 "> The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
+ <img src="https://render.githubusercontent.com/render/math?math=H_{1} : \mu_1 &lt; \mu_2 "> The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
 
- <img src="https://render.githubusercontent.com/render/math?math=H_{0} : \mu1 >= \mu_2">  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug". 
+ <img src="https://render.githubusercontent.com/render/math?math=H_{0} : \mu1 &gt;= \mu_2">  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug". 
 
 A **_Two-Tail Test_** is for when you want to test if a parameter falls between (or outside of) a range of two given values. 
 
