@@ -90,27 +90,27 @@ In all of the following examples, we will focus on **statistical tests that comp
 
 ### One-Tail and Two-Tail Tests
 
-In normally distributed data, you calculate p-values from t-statistics (or $z$-scores if the population parameters are known). One of the main considerations is whether to perform a **_one-tail_** or a  **_two-tail_** test.  
+In normally distributed data, you calculate p-values from t-statistics (or $z$-scores if the population parameters are known). One of the main considerations is whether to perform a **_one-tailed_** or a **_two-tailed_** test.  
 
 **_Example One-Tail Hypotheses_**
 
-A **_one-tail test_** is when you want to know if a parameter from the treatment group is greater than (or less than) a corresponding parameter from the control group.
+A **_one-tailed test_** is when you want to know if a parameter from the treatment group is greater than (or less than) a corresponding parameter from the control group.
 
-$H_{1} : \mu_1 < \mu_2 $ The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
+$H_{1} : \mu_{control} < \mu_{treatment} $ The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
 
-$ H_{0} : \mu_1 \geq \mu_2$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug".
+$ H_{0} : \mu_{control} \geq \mu_{treatment}$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug".
 
-In general, $<$ or $>$ in the alternative hypothesis and $\geq$ or $\leq$ in the null hypothesis indicates that this is a one-tail test.
+In general, $<$ or $>$ in the alternative hypothesis and $\geq$ or $\leq$ in the null hypothesis indicates that this is a one-tailed test.
 
 **_Example Two-Tail Hypotheses_**
 
-A **_two-tail test_** is for when you want to test if a parameter falls between (or outside of) a range of two given values.
+A **_two-tailed test_** is for when you want to test if a parameter falls between (or outside of) a range of two given values.
 
-$H_{1} : \mu_1 \neq \mu_2$ "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
+$H_{1} : \mu_{control} \neq \mu_{treatment}$ "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
 
-$H_{0} : \mu_1 = \mu_2$ "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
+$H_{0} : \mu_{control} = \mu_{treatment}$ "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
 
-In general, $\neq$ in the alternative hypothesis and $=$ in the null hypothesis indicates that this is a two-tail test.
+In general, $\neq$ in the alternative hypothesis and $=$ in the null hypothesis indicate that this is a two-tailed test.
 
 ### What Does an Experiment Really Prove?
 
