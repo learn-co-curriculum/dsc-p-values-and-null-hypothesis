@@ -20,16 +20,16 @@ As stated previously, scientific experiments actually have 2 hypotheses:
 **_Null Hypothesis_**: There is no relationship between A and B   
 Example: "There is no relationship between this flu medication and a *reduced* recovery time from the flu."
 
-The _null hypothesis_ is usually denoted as  <img src="https://render.githubusercontent.com/render/math?math=H_{0}"> 
+The _null hypothesis_ is usually denoted as $H_{0}$
 
 **_Alternative Hypothesis_**: The hypothesis traditionally thought of when creating a hypothesis for an experiment  
 Example: "This flu medication reduces recovery time for the flu."
 
-The _alternative hypothesis_ is usually denoted as  <img src="https://render.githubusercontent.com/render/math?math=H_{1}"> or  <img src="https://render.githubusercontent.com/render/math?math=H_{a}"> 
+The _alternative hypothesis_ is usually denoted as $H_{1}$ or $H_{a}$
 
-An easy way to differentiate between the null hypothesis and the alternative hypothesis is that the null hypothesis is the more conservative choice. It always assumes that there is no difference between some variables of interest, and therefore when it is represented mathematically, it should always contain an equals sign ( <img src="https://render.githubusercontent.com/render/math?math=="> ,  <img src="https://render.githubusercontent.com/render/math?math=\geq"> , or  <img src="https://render.githubusercontent.com/render/math?math=\leq"> ).
+An easy way to differentiate between the null hypothesis and the alternative hypothesis is that the null hypothesis is the more conservative choice. It always assumes that there is no difference between some variables of interest, and therefore when it is represented mathematically, it should always contain an equals sign ($=$, $\geq$, or $\leq$).
 
-The alternative hypothesis is whatever claim you are trying to prove with an experiment. It posits that there is some difference between some variables of interest, and therefore when it is represented mathematically it should never contain an equals sign, but rather some symbol representing inequality ( <img src="https://render.githubusercontent.com/render/math?math=\neq"> ,  <img src="https://render.githubusercontent.com/render/math?math=<"> , or  <img src="https://render.githubusercontent.com/render/math?math=>"> ).
+The alternative hypothesis is whatever claim you are trying to prove with an experiment. It posits that there is some difference between some variables of interest, and therefore when it is represented mathematically it should never contain an equals sign, but rather some symbol representing inequality ($\neq$, $<$, or $>$).
 
 Whenever you are performing a statistical test, you are determining whether you have enough evidence to reject the null hypothesis. If you do not have enough evidence, you fail to reject the null hypothesis.
 
@@ -41,19 +41,19 @@ No matter what you're experimenting on, statistical tests come down to one quest
 
 If you calculate a p-value and it comes out to 0.03, you can interpret this as saying "There is a 3% chance of obtaining the results I'm seeing when the null hypothesis is true."
 
-A low p-value means that either *the null hypothesis is false* or *the null hypothesis is true and a highly improbable event has occurred*. It is impossible to know which of these is what actually happened! So the best practice is to set an  <img src="https://render.githubusercontent.com/render/math?math=\alpha"> prior to conducting the experiment, to establish what level of this particular kind of incorrectness you are willing to tolerate.
+A low p-value means that either *the null hypothesis is false* or *the null hypothesis is true and a highly improbable event has occurred*. It is impossible to know which of these is what actually happened! So the best practice is to set an $\alpha$ prior to conducting the experiment, to establish what level of this particular kind of incorrectness you are willing to tolerate.
 
- <img src="https://render.githubusercontent.com/render/math?math=\alpha"> **_(alpha value)_**: The marginal threshold at which you're okay with agreeing that the null hypothesis is implausible enough to be rejected. 
+$\alpha$ **_(alpha value)_**: The marginal threshold at which you're okay with agreeing that the null hypothesis is implausible enough to be rejected. 
 
-If you set an alpha value of  <img src="https://render.githubusercontent.com/render/math?math=\alpha = 0.05"> , you're essentially saying "I'm okay with accepting my alternative hypothesis as true when we expect that the null hypothesis would randomly cause the results I'm seeing less than 5% of the time."
+If you set an alpha value of $\alpha = 0.05$, you're essentially saying "I'm okay with accepting my alternative hypothesis as true when we expect that the null hypothesis would randomly cause the results I'm seeing less than 5% of the time."
 
-When you conduct an experiment, your goal is to calculate a p-value and compare it to the alpha value. If  <img src="https://render.githubusercontent.com/render/math?math=p < \alpha"> , then you **_reject the null hypothesis_** because the idea that there is "no relationship" between the variables of interest has become too implausible.  Note that any good scientist will admit that this doesn't prove that there is a _direct causal relationship_ between some chosen "independent" and "dependent" variables, just that they now have enough evidence to the contrary to show that they no longer believe that there is no relationship between them.
+When you conduct an experiment, your goal is to calculate a p-value and compare it to the alpha value. If $p < \alpha$, then you **_reject the null hypothesis_** because the idea that there is "no relationship" between the variables of interest has become too implausible.  Note that any good scientist will admit that this doesn't prove that there is a _direct causal relationship_ between some chosen "independent" and "dependent" variables, just that they now have enough evidence to the contrary to show that they no longer believe that there is no relationship between them.
 
 In simple terms:
 
- <img src="https://render.githubusercontent.com/render/math?math=p < \alpha"> : Reject the _null hypothesis_ and in favor of the _alternative hypothesis_
+$p < \alpha$: Reject the _null hypothesis_ and in favor of the _alternative hypothesis_
 
- <img src="https://render.githubusercontent.com/render/math?math=p >= \alpha"> : Fail to reject the _null hypothesis_.
+$p >= \alpha$: Fail to reject the _null hypothesis_.
 
 So for example, if you set an alpha of 0.05 and your statistical test produces a p-value of 0.02, you reject the null hypothesis. (You would say *we reject the null hypothesis at a significance level of 0.05*.) If you set an alpha of 0.05 and your statistical test produces a p-value of 0.06, you fail to reject the null hypothesis. (You would say *we fail to reject the null hypothesis at a significance level of 0.05*.)
 
@@ -74,7 +74,7 @@ Choosing an alpha value is also known as choosing a **significance level**. Much
   
 (For a longer aside about what scientists mean by "interesting", check out the classic, irreverent paper _That's Interesting!_ by sociologist Murray S. Davis ([DOI link](https://doi.org/10.1177%2F004839317100100211), [Google Scholar search](https://scholar.google.com/scholar?cluster=4050715004907820129&hl=en&as_sdt=0,33)))
 
-In general, we tend to think that setting an alpha too high is more worrisome than setting it too low. For example, if we set a significance level of  <img src="https://render.githubusercontent.com/render/math?math=\alpha = 0.5"> , that means that if the null hypothesis is true, we would still get a statistically significant result (indicating to reject the null hypothesis) 50% of the time! Intuitively, that is not a good idea, because it means claiming lots of relationships between variables that don't actually exist. So generally we err on the side of setting the alpha lower and possibly missing some interesting relationships, in order to minimize all of these false positives.
+In general, we tend to think that setting an alpha too high is more worrisome than setting it too low. For example, if we set a significance level of $\alpha = 0.5$, that means that if the null hypothesis is true, we would still get a statistically significant result (indicating to reject the null hypothesis) 50% of the time! Intuitively, that is not a good idea, because it means claiming lots of relationships between variables that don't actually exist. So generally we err on the side of setting the alpha lower and possibly missing some interesting relationships, in order to minimize all of these false positives.
 
 At the same time, setting an alpha *too* low means we will miss a lot of interesting findings. So you will rarely see an alpha set lower than 0.01, and 0.05 is fairly standard.
 
@@ -84,33 +84,33 @@ In future lessons we will dig deeper into defining terms like "false positive" m
 
 There are many different ways that you can structure a hypothesis statement, but they always come down to some statement of equality (null hypothesis) and some statement of inequality (alternative hypothesis).
 
-It is important that these two hypotheses are mutually exclusive (cannot both occur at the same time, so the intersection of  <img src="https://render.githubusercontent.com/render/math?math=H_{0}"> and  <img src="https://render.githubusercontent.com/render/math?math=H_{a}"> is the empty set) and exhaustive (all possible scenarios are represented by the union of  <img src="https://render.githubusercontent.com/render/math?math=H_{0}"> and  <img src="https://render.githubusercontent.com/render/math?math=H_{a}"> ). (You will see some contexts where they are not defined in an exhaustive way, but for our statistical tests they will need to be.)
+It is important that these two hypotheses are mutually exclusive (cannot both occur at the same time, so the intersection of $H_{0}$ and $H_{a}$ is the empty set) and exhaustive (all possible scenarios are represented by the union of $H_{0}$ and $H_{a}$). (You will see some contexts where they are not defined in an exhaustive way, but for our statistical tests they will need to be.)
 
-In all of the following examples, we will focus on **statistical tests that compare means ( <img src="https://render.githubusercontent.com/render/math?math=\mu"> values) of normally distributed data**. This is only one kind of statistical test! There are numerous other statistical tests for comparing categorical data, comparing variances of data, comparing an observed distribution to a theoretical distribution, comparing a sample to a population, etc. that we are not digging into just yet.
+In all of the following examples, we will focus on **statistical tests that compare means ($\mu$ values) of normally distributed data**. This is only one kind of statistical test! There are numerous other statistical tests for comparing categorical data, comparing variances of data, comparing an observed distribution to a theoretical distribution, comparing a sample to a population, etc. that we are not digging into just yet.
 
 ### One-Tail and Two-Tail Tests
 
-In normally distributed data, you calculate p-values from t-statistics (or  <img src="https://render.githubusercontent.com/render/math?math=z"> -scores if the population parameters are known). One of the main considerations is whether to perform a **_one-tail_** or a  **_two-tail_** test.  
+In normally distributed data, you calculate p-values from t-statistics (or $z$-scores if the population parameters are known). One of the main considerations is whether to perform a **_one-tailed_** or a **_two-tailed_** test.  
 
 **_Example One-Tail Hypotheses_**
 
-A **_one-tail test_** is when you want to know if a parameter from the treatment group is greater than (or less than) a corresponding parameter from the control group.
+A **_one-tailed test_** is when you want to know if a parameter from the treatment group is greater than (or less than) a corresponding parameter from the control group.
 
- <img src="https://render.githubusercontent.com/render/math?math=H_{1} : \mu_1 < \mu_2 "> The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
+$H_{1} : \mu_{control} < \mu_{treatment} $ The treatment group given this weight loss drug will lose more weight on average than the control group that was given a competitor's weight loss drug 
 
- <img src="https://render.githubusercontent.com/render/math?math=H_{0} : \mu_1 \geq \mu_2">  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug".
+$ H_{0} : \mu_{control} \geq \mu_{treatment}$  The treatment group given this weight loss drug will not lose more weight on average than the control group that was given a competitor's weight loss drug".
 
-In general,  <img src="https://render.githubusercontent.com/render/math?math=<"> or  <img src="https://render.githubusercontent.com/render/math?math=>"> in the alternative hypothesis and  <img src="https://render.githubusercontent.com/render/math?math=\geq"> or  <img src="https://render.githubusercontent.com/render/math?math=\leq"> in the null hypothesis indicates that this is a one-tail test.
+In general, $<$ or $>$ in the alternative hypothesis and $\geq$ or $\leq$ in the null hypothesis indicates that this is a one-tailed test.
 
 **_Example Two-Tail Hypotheses_**
 
-A **_two-tail test_** is for when you want to test if a parameter falls between (or outside of) a range of two given values.
+A **_two-tailed test_** is for when you want to test if a parameter falls between (or outside of) a range of two given values.
 
- <img src="https://render.githubusercontent.com/render/math?math=H_{1} : \mu_1 \neq \mu_2"> "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
+$H_{1} : \mu_{control} \neq \mu_{treatment}$ "People in the experimental group that are administered this drug will not lose the same amount of weight as the people in the control group.  They will be heavier or lighter". 
 
- <img src="https://render.githubusercontent.com/render/math?math=H_{0} : \mu_1 = \mu_2"> "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
+$H_{0} : \mu_{control} = \mu_{treatment}$ "People in the experimental group that are administered this drug will lose the same amount of weight as the people in the control group." 
 
-In general,  <img src="https://render.githubusercontent.com/render/math?math=\neq"> in the alternative hypothesis and  <img src="https://render.githubusercontent.com/render/math?math=="> in the null hypothesis indicates that this is a two-tail test.
+In general, $\neq$ in the alternative hypothesis and $=$ in the null hypothesis indicate that this is a two-tailed test.
 
 ### What Does an Experiment Really Prove?
 
@@ -123,7 +123,7 @@ Even if you have a statistically significant result, either of these could be tr
 1. The null hypothesis about this relationship is actually true, and you experienced an unlikely sampling event
 2. There is a lurking confounding variable that is actually responsible for the perceived relationship
 
-However, we can call an experiment where  <img src="https://render.githubusercontent.com/render/math?math=p < \alpha"> a "successful experiment" because we are confident that it's statistically unlikely for the first of those to occur. Handling confounding variables is much more challenging, although we will consider this in more depth when we learn about statistical models, especially multiple linear regression.
+However, we can call an experiment where $p < \alpha$ a "successful experiment" because we are confident that it's statistically unlikely for the first of those to occur. Handling confounding variables is much more challenging, although we will consider this in more depth when we learn about statistical models, especially multiple linear regression.
 
 ## The Null Hypothesis Loves You and Wants You To Be Happy
 
